@@ -1,3 +1,4 @@
+
 document.getElementById("registro-form").addEventListener("submit", async function (e) {
   e.preventDefault();
 

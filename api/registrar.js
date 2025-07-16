@@ -1,3 +1,4 @@
+
 // api/registrar.js
 
 import { writeFile, existsSync, readFileSync } from 'fs';
