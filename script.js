@@ -6,7 +6,7 @@ document.getElementById("registro-form").addEventListener("submit", async functi
   const pais = document.getElementById("pais").value;
   const telefono = document.getElementById("telefono").value;
 
-  const response = await fetch("/api/registrar", {
+  const response = await fetch("https://otrera-servidor.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
